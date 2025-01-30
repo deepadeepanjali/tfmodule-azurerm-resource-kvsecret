@@ -1,4 +1,4 @@
-output "kvsecrets" {
-  value     = azurerm_key_vault_secret.kvsecret
+output "secret_id" {
+  value = azurerm_key_vault_secret.kvsecret.id
   sensitive = true
 }
