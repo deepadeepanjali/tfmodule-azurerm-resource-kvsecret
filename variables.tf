@@ -9,7 +9,8 @@ variable "secretvalue" {
 }
 
 
-variable "keyvault_id" {
-  description = "The id of the Key Vault"
+variable "scope" {
+  description = "scope"
   type        = string
 }
+
