@@ -2,15 +2,11 @@ variable "secretname" {
   description = "Name of secret"
   type        = string
 }
-
 variable "secretvalue" {
   description = "value of secret"
   type        = string
 }
-
-
-variable "scope" {
-  description = "scope"
+variable "keyvault_id" {
+  description = "The id of the Key Vault"
   type        = string
 }
-
